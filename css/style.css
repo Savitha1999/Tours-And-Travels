@@ -311,12 +311,16 @@
 
 @media (max-width:720px)
  {
-    .header,.sec
+    .header
     {
         display:inline-block;
-        height: 300px;
-        margin-top: 30px;
-        
+        height: 200px;
+        margin-top: 30px;   
+    }
+
+    .sec
+    {
+      display: none;
     }
     
 }
@@ -387,7 +391,7 @@
     .relative
     {
       margin-top: 200px;
-      height: 2300px;
+      height: 2000px;
   
     }
     
@@ -397,6 +401,7 @@
  {
     .deal
     {
+      margin: 0;
       display: none;
     }
     
@@ -438,7 +443,7 @@
     .relate
     {
      
-      height: 2100px;
+      height: 1700px;
       
     }
     

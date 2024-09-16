@@ -155,12 +155,17 @@
 
 @media (max-width:720px)
  {
-    .header,.sec
+    .header
     {
         display:inline-block;
-        height: 300px;
+        height: 200px;
         margin-top: 30px;
         
+    }
+
+    .sec
+    {
+      display: none;
     }
     
 }

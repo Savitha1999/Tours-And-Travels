@@ -175,16 +175,21 @@
  }
  
  @media (max-width:720px)
-  {
-     .header,.sec
-     {
-         display:inline-block;
-         height: 300px;
-         margin-top: 30px;
-         
-     }
-     
- }
+ {
+    .header
+    {
+        display:inline-block;
+        height: 200px;
+        margin-top: 30px;
+        
+    }
+
+    .sec
+    {
+      display: none;
+    }
+    
+}
  
  @media (max-width:720px)
   {
